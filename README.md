@@ -3,7 +3,11 @@
 stb
 ===
 
-single-file public domain (or MIT licensed) libraries for C/C++
+single-file public domain (or MIT licensed) libraries for C/C++ with a sensible directory structure and CMake support.
+
+NOTE: I realize most people use this as a header-only library, or just grab what they need. For now I'm keeping it as a static library due to the one .c file, std_vorbic.c. At some point I may change this to a INTERFACE library, which means (in CMake terms) that it's just a header only library. At that point it would likely stop showing up in your IDE since there's no project to build.
+
+TODO: Add the tests folder, and build and run the tests.
 
 Noteworthy:
 
